@@ -11,14 +11,14 @@
     import iconInProgress from './assets/icon-progress.svg';
     import iconReview from './assets/icon-review.svg';
     import iconApproved from './assets/icon-approved.svg';
-    import iconDevelop from './assets/icon-develop.svg';
+    import iconDevelop from './assets/icon-readyfordev.svg';
 	import iconComplete from './assets/icon-complete.svg';
 	import iconArchive from './assets/icon-archive.svg';
-	
+
 	//define all of the status that you want here
 	let statuses = [
 		{
-			'title': 'In progress',
+			'title': 'WIP',
 			'icon': iconInProgress,
 			'color': '#E93940'
 		},
@@ -33,12 +33,12 @@
 			'color': '#376FFF'
 		},
 		{
-			'title': 'Develop',
+			'title': 'Ready for Dev',
 			'icon': iconDevelop,
 			'color': '#3CCC65'
 		},
 		{
-			'title': 'Complete',
+			'title': 'Production',
 			'icon': iconComplete,
 			'color': '#000000'
 		},
@@ -71,7 +71,7 @@
 			showDialog = true;
 		}
 	}
-	
+
 
 	//delete the annotations from selected frames
 	function deleteSeletected() {
