@@ -11,8 +11,8 @@
     import iconInProgress from './assets/icon-progress.svg';
     import iconReview from './assets/icon-review.svg';
     import iconApproved from './assets/icon-approved.svg';
-    import iconDevelop from './assets/icon-readyfordev.svg';
-	import iconComplete from './assets/icon-complete.svg';
+    import iconDevelop from './assets/icon-develop.svg';
+	import iconComplete from './assets/icon-production.svg';
 	import iconArchive from './assets/icon-archive.svg';
 
 	//define all of the status that you want here
