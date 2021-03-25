@@ -8,11 +8,12 @@
 	import StatusButton from './components/StatusButton';
 
 	//import all of your svg icons here (12x12 size)
-    import iconInProgress from './assets/icon-progress.svg';
-    import iconReview from './assets/icon-review.svg';
-    import iconApproved from './assets/icon-approved.svg';
-    import iconDevelop from './assets/icon-develop.svg';
-	import iconComplete from './assets/icon-production.svg';
+  import iconInProgress from './assets/icon-progress.svg';
+  import iconReview from './assets/icon-review.svg';
+	import iconRevise from './assets/icon-revise.svg';
+  import iconApproved from './assets/icon-approved.svg';
+  import iconDevelop from './assets/icon-develop.svg';
+	import iconProduction from './assets/icon-production.svg';
 	import iconArchive from './assets/icon-archive.svg';
 
 	//define all of the status that you want here
@@ -20,27 +21,32 @@
 		{
 			'title': 'WIP',
 			'icon': iconInProgress,
-			'color': '#E93940'
+			'color': '#FFCF23'
 		},
 		{
 			'title': 'Review',
 			'icon': iconReview,
-			'color': '#FFCF23'
+			'color': '#FF9500'
+		},
+		{
+			'title': 'Revise',
+			'icon': iconRevise,
+			'color': '#E93940'
 		},
 		{
 			'title': 'Approved',
 			'icon': iconApproved,
-			'color': '#376FFF'
+			'color': '#3CCC65'
 		},
 		{
 			'title': 'Ready for Dev',
 			'icon': iconDevelop,
-			'color': '#3CCC65'
+			'color': '#5856D6'
 		},
 		{
-			'title': 'Production',
-			'icon': iconComplete,
-			'color': '#000000'
+			'title': 'Production - 15.X.X',
+			'icon': iconProduction,
+			'color': '#2C90ED'
 		},
 		{
 			'title': 'Archive',
