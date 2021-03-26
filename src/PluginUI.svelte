@@ -40,13 +40,13 @@
 			'color': '#3CCC65'
 		},
 		{
-			'title': 'In Development',
-			'icon': iconDevelop,
-			'color': '#5856D6'
-		},
-		{
 			'title': 'Upcoming',
 			'icon': iconUpcoming,
+			'color': '#AF52DE'
+		},
+		{
+			'title': 'In Development',
+			'icon': iconDevelop,
 			'color': '#5856D6'
 		},
 		{
