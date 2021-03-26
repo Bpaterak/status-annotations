@@ -13,6 +13,7 @@
 	import iconRevise from './assets/icon-revise.svg';
   import iconApproved from './assets/icon-approved.svg';
   import iconDevelop from './assets/icon-develop.svg';
+	import iconUpcoming from './assets/icon-upcoming.svg';
 	import iconProduction from './assets/icon-production.svg';
 	import iconArchive from './assets/icon-archive.svg';
 
@@ -39,12 +40,17 @@
 			'color': '#3CCC65'
 		},
 		{
-			'title': 'Ready for Dev',
+			'title': 'In Development',
 			'icon': iconDevelop,
 			'color': '#5856D6'
 		},
 		{
-			'title': 'Production - 15.X.X',
+			'title': 'Upcoming',
+			'icon': iconUpcoming,
+			'color': '#5856D6'
+		},
+		{
+			'title': 'Production',
 			'icon': iconProduction,
 			'color': '#2C90ED'
 		},
